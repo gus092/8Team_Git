@@ -1,5 +1,5 @@
 package company.co.mediclock;
-
+//SearchActivity
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
