@@ -20,6 +20,10 @@
         <activity android:name=".medimorning" />
         <activity android:name=".mediname" />
         <activity android:name=".SearchActivity" />
+        <activity android:name=".WritecodeActivity"></activity>
+        <activity android:name=".SeecodeActivity" />
+        <activity android:name=".ShareActivity" />
+        <activity android:name=".SearchActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
