@@ -9,15 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".medialarm"></activity>
-        <activity android:name=".mediweekdays" />
-        <activity android:name=".mediweek" />
-        <activity android:name=".medirepeat" />
-        <activity android:name=".Mymeditime_hour" />
-        <activity android:name=".meditime" />
-        <activity android:name=".medimorning" />
-        <activity android:name=".mediname" />
-        <activity android:name=".SearchActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

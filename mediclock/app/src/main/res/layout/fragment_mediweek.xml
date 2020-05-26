@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mediweek">
+    android:background="#FDFDFD"
+    tools:context="company.co.mediclock.MainActivity">
 
 
     <TextView
@@ -117,6 +118,7 @@
                 android:textSize="50sp" />
 
             <Button
+                android:id="@+id/everyday"
                 android:layout_width="180dp"
                 android:layout_height="100dp"
                 android:background="@drawable/pr_button_week"
