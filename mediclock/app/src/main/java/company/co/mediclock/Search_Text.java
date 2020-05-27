@@ -1,4 +1,5 @@
 package company.co.mediclock;
+<<<<<<< HEAD
 /*<<<<<<< Updated upstream:mediclock/app/src/main/java/company/co/mediclock/Search_ResultList.java
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,10 +17,19 @@ import androidx.fragment.app.Fragment;
 
 /*<<<<<<< Updated upstream:mediclock/app/src/main/java/company/co/mediclock/Search_ResultList.java
 public class Search_ResultList extends AppCompatActivity {
+=======
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class Search_Text extends AppCompatActivity {
+>>>>>>> master
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_search_list);
     }
 =======
@@ -72,3 +82,8 @@ public class Search_Text extends Fragment {
     }
 }
 
+=======
+        setContentView(R.layout.activity_search__text);
+    }
+}
+>>>>>>> master

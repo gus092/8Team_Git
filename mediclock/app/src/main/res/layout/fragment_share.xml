@@ -2,16 +2,45 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD:mediclock/app/src/main/res/layout/fragment_share.xml
     android:orientation="vertical"
     android:background="#FDFDFD"
     >
+=======
+    android:orientation="vertical">
+>>>>>>> master:mediclock/app/src/main/res/layout/activity_share.xml
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD:mediclock/app/src/main/res/layout/fragment_share.xml
+=======
+        android:layout_margin="25dp"
+>>>>>>> master:mediclock/app/src/main/res/layout/activity_share.xml
         android:gravity="center"
-        android:text="공유"
+        android:text="알람 공유"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/seecode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="공유코드 확인"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/writecode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp"
+        android:text="코드입력(보호자용)"
         android:textSize="36sp" />
 
     <Button

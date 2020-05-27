@@ -1,5 +1,6 @@
 package company.co.mediclock;
 
+<<<<<<< HEAD
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,16 @@ import androidx.fragment.app.Fragment;
 
 public class ShareActivity extends Fragment {
     /*
+=======
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ShareActivity extends AppCompatActivity {
+>>>>>>> master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +47,7 @@ public class ShareActivity extends Fragment {
                 startActivity(intent); // 다음 화면으로 넘어간다
             }
         });
+<<<<<<< HEAD
     }*/
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -50,5 +62,7 @@ public class ShareActivity extends Fragment {
             }
         });*/
         return rootView;
+=======
+>>>>>>> master
     }
 }

@@ -1,10 +1,19 @@
 package company.co.mediclock;
 //SearchActivity
+<<<<<<< HEAD
+=======
+import androidx.appcompat.app.AppCompatActivity;
+>>>>>>> master
 
+import android.content.Intent;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+=======
+import android.view.View;
+>>>>>>> master
 import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
@@ -37,6 +46,7 @@ public class SearchActivity extends Fragment  {
 
 
 
+<<<<<<< HEAD
     }
 =======
         setContentView(R.layout.fragment_search);
@@ -72,6 +82,8 @@ public class SearchActivity extends Fragment  {
             }
         });
         return rootView;
+=======
+>>>>>>> master
     }
 }
 

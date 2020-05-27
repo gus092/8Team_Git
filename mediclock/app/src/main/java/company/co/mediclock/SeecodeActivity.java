@@ -1,5 +1,6 @@
 package company.co.mediclock;
 
+<<<<<<< HEAD
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,5 +28,17 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
             }
         });*/
     return rootView;
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class SeecodeActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_seecode);
+>>>>>>> master
     }
 }

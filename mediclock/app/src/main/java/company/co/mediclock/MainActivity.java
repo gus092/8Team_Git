@@ -1,9 +1,10 @@
-package company.co.mediclock;
+package company.co.mediclock; //testsomethingss
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+<<<<<<< HEAD
 /*<<<<<<< Updated upstream
 
 import android.app.Activity;
@@ -12,6 +13,14 @@ import android.content.Intent;
 =======
 >>>>>>> Stashed changes*/
 
+=======
+import android.app.Activity;
+import android.content.Intent;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+>>>>>>> master
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,8 +47,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 /*
 <<<<<<< Updated upstream
+=======
+
+>>>>>>> master
         Button button_search = findViewById(R.id.button);
         button_search.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent); // 다음 화면으로 넘어간다
             }
         });
+<<<<<<< HEAD
 =======*/
         mainmenu = (Mainmenu) getSupportFragmentManager().findFragmentById(R.id.mainFragment);
         medialarm = new Medialarm();
@@ -128,5 +142,7 @@ public class MainActivity extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction().replace(R.id.container, search_text).commit();
         }
 //>>>>>>> Stashed changes
+=======
+>>>>>>> master
     }
 }
