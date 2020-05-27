@@ -38,32 +38,31 @@
 
     <Button
         android:id="@+id/weekday"
-        android:layout_width="300dp"
-        android:layout_height="110dp"
-        android:background="@drawable/pr_button_medirepeat"
-        android:text="요일 주기"
-        android:textSize="36sp"
+        android:layout_width="409dp"
+        android:layout_height="155dp"
+        android:background="@drawable/pr_button_meditime"
+        android:text="요일주기"
+        android:textSize="45sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.214" />
+        app:layout_constraintVertical_bias="0.098" />
 
     <Button
         android:id="@+id/day"
-        android:layout_width="300dp"
-        android:layout_height="110dp"
-        android:layout_marginBottom="160dp"
-        android:background="@drawable/pr_button_medirepeat"
-        android:text="일일 주기"
-        android:textSize="36sp"
+        android:layout_width="407dp"
+        android:layout_height="155dp"
+        android:background="@drawable/pr_button_meditime"
+        android:text="일일주기"
+        android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/weekday"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.394" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

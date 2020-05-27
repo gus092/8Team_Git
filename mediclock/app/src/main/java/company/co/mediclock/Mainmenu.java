@@ -52,7 +52,7 @@ public class Mainmenu extends Fragment {
             @Override
             public void onClick(View v){
                 MainActivity activity = (MainActivity) getActivity();
-                activity.onFragmentChanged(12);
+                activity.onFragmentChanged(14);
             }
         });
 
