@@ -2,22 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD:mediclock/app/src/main/res/layout/fragment_share.xml
-    android:orientation="vertical"
-    android:background="#FDFDFD"
-    >
-=======
     android:orientation="vertical">
->>>>>>> master:mediclock/app/src/main/res/layout/activity_share.xml
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD:mediclock/app/src/main/res/layout/fragment_share.xml
-=======
         android:layout_margin="25dp"
->>>>>>> master:mediclock/app/src/main/res/layout/activity_share.xml
         android:gravity="center"
         android:text="알람 공유"
         android:textSize="50sp" />
@@ -42,10 +33,4 @@
         android:layout_marginRight="5dp"
         android:text="코드입력(보호자용)"
         android:textSize="36sp" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="사용자" />
 </LinearLayout>

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FDFDFD"
-    tools:context="company.co.mediclock.MainActivity">
+    tools:context=".meditime">
 
 
     <TextView
@@ -28,7 +27,7 @@
         android:layout_height="88dp"
         android:layout_marginTop="72dp"
         android:gravity="center"
-        android:text="@string/mymedirepeat"
+        android:text="@string/mymeditime"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,32 +36,33 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/weekday"
-        android:layout_width="409dp"
-        android:layout_height="155dp"
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
         android:background="@drawable/pr_button_meditime"
-        android:text="요일주기"
-        android:textSize="45sp"
+        android:text="오전"
+        android:textSize="36sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.098" />
+        app:layout_constraintVertical_bias="0.207" />
 
     <Button
-        android:id="@+id/day"
-        android:layout_width="407dp"
-        android:layout_height="155dp"
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
         android:background="@drawable/pr_button_meditime"
-        android:text="일일주기"
-        android:textSize="45sp"
+        android:text="오후"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/weekday"
-        app:layout_constraintVertical_bias="0.394" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.207" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
