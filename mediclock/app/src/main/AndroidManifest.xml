@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+=======
         <activity android:name=".Search_Text"></activity>
         <activity android:name=".Search_ResultList" />
         <activity android:name=".medialarm" />
@@ -24,6 +26,7 @@
         <activity android:name=".SeecodeActivity" />
         <activity android:name=".ShareActivity" />
         <activity android:name=".SearchActivity" />
+>>>>>>> master
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
